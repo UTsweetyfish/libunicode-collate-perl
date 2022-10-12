@@ -1,0 +1,28 @@
+Source: libunicode-collate-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Danai SAE-HAN (韓達耐) <danai@debian.org>,
+           Angel Abad <angel@debian.org>,
+           gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               perl-xs-dev,
+               perl:native
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libunicode-collate-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libunicode-collate-perl.git
+Homepage: https://metacpan.org/release/Unicode-Collate
+Rules-Requires-Root: no
+
+Package: libunicode-collate-perl
+Architecture: any
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends}
+Description: Unicode collation algorithm built with fast XSUB
+ Written by SADAHIRO Tomoyuki, this module contains several functions to
+ collate (sort) Unicode characters. This package is optimised in XS.
+ .
+ Unicode::Collate is an implementation of Unicode Technical Standard #10,
+ the Unicode Collation Algorithm.

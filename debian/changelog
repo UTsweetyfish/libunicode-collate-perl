@@ -1,0 +1,343 @@
+libunicode-collate-perl (1.31-1) unstable; urgency=medium
+
+  * Import upstream version 1.31.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 12 Sep 2021 19:59:49 +0200
+
+libunicode-collate-perl (1.29-1) unstable; urgency=medium
+
+  * Import upstream version 1.29.
+  * Update copyright years for third-party file.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 28 Sep 2020 17:16:03 +0200
+
+libunicode-collate-perl (1.28-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ gregor herrmann ]
+  * debian/control: update Build-Depends for cross builds.
+  * debian/watch: use uscan version 4.
+  * Update 'DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow' to '=+all'.
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ gregor herrmann ]
+  * Import upstream version 1.28.
+  * Update years of upstream and packaging copyright.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 24 Sep 2020 21:03:25 +0200
+
+libunicode-collate-perl (1.27-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Drop lintian override which lintian now considers unused.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.3.0.
+  * Bump debhelper compatibility level to 11.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 04 Jan 2019 23:56:50 +0100
+
+libunicode-collate-perl (1.25-1) unstable; urgency=medium
+
+  * Import upstream version 1.25
+
+ -- Angel Abad <angel@debian.org>  Thu, 23 Nov 2017 17:48:47 +0100
+
+libunicode-collate-perl (1.24-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop override_dh_auto_configure.
+    Building the XS version is enabled by default since quite some time.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 20 Nov 2017 20:24:17 +0100
+
+libunicode-collate-perl (1.23-1) unstable; urgency=medium
+
+  * Import upstream version 1.23
+  * debian/copyright: Update copyright years
+  * Add lintian-overrides for Unicode word
+
+ -- Angel Abad <angel@debian.org>  Tue, 14 Nov 2017 09:48:06 +0100
+
+libunicode-collate-perl (1.22-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.1.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Nov 2017 22:24:42 +0100
+
+libunicode-collate-perl (1.19-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 03 Dec 2016 21:26:03 +0100
+
+libunicode-collate-perl (1.18-1) unstable; urgency=medium
+
+  * Import upstream version 1.18.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 15 Nov 2016 20:23:30 +0100
+
+libunicode-collate-perl (1.17-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Fabrizio Regalli from Uploaders. Thanks for your work!
+  * New upstream release.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 3.9.8.
+  * Set bindnow linker flag in debian/rules.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 31 Oct 2016 23:31:09 +0100
+
+libunicode-collate-perl (1.14-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.14
+  * Add debian/upstream/metadata
+
+ -- Angel Abad <angel@debian.org>  Tue, 14 Jul 2015 12:10:39 +0200
+
+libunicode-collate-perl (1.12-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Damyan Ivanov ]
+  * Imported Upstream version 1.12
+    Closes: #788265 -- Uninstallable with perl5.22
+  * Update years of upstream copyright
+  * Add Testsuite header
+  * declare conformance to Policy 3.9.6
+
+ -- Damyan Ivanov <dmn@debian.org>  Sat, 13 Jun 2015 20:37:29 +0000
+
+libunicode-collate-perl (1.07-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.07
+
+ -- Angel Abad <angel@debian.org>  Wed, 28 May 2014 09:14:07 +0200
+
+libunicode-collate-perl (1.05-1) unstable; urgency=medium
+
+  * Drop xz compression for {binary,source} package, set by default by
+    dpkg since 1.17.{0,6}.
+  * Strip trailing slash from metacpan URLs.
+
+  * New upstream release.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 25 May 2014 15:34:05 +0200
+
+libunicode-collate-perl (1.04-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 25 Dec 2013 19:45:55 +0100
+
+libunicode-collate-perl (1.03-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.03
+
+ -- Angel Abad <angel@debian.org>  Thu, 05 Dec 2013 18:04:18 +0100
+
+libunicode-collate-perl (1.02-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop pod-encoding.patch, issue fixed upstream.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 24 Nov 2013 17:01:42 +0100
+
+libunicode-collate-perl (1.01-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.5.
+  * Add patch to fix POD encoding.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 08 Nov 2013 23:54:57 +0100
+
+libunicode-collate-perl (0.99-1) unstable; urgency=low
+
+  [ Danai SAE-HAN (韓達耐) ]
+  * Imported Upstream version 0.99
+    - support overriding out-of-range values (see 'overrideOut' in manpage)
+
+ -- Danai SAE-HAN (韓達耐) <danai@debian.org>  Wed, 09 Oct 2013 08:21:21 +0800
+
+libunicode-collate-perl (0.98-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.98
+  * debian/copyright: Update upstream years
+
+ -- Angel Abad <angel@debian.org>  Sun, 30 Jun 2013 12:05:12 +0200
+
+libunicode-collate-perl (0.97-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.97
+  * debian/copyright: Update debian years
+
+ -- Angel Abad <angel@debian.org>  Wed, 16 Jan 2013 12:56:13 +0100
+
+libunicode-collate-perl (0.95-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright: update years of third-party copyright.
+  * Use debhelper 9.20120312 to get all hardening flags.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 09 Dec 2012 19:04:37 +0100
+
+libunicode-collate-perl (0.91-1) unstable; urgency=low
+
+  * Imported Upstream version 0.91
+
+ -- Angel Abad <angel@debian.org>  Sun, 04 Nov 2012 13:38:36 +0100
+
+libunicode-collate-perl (0.90-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.90
+  * debian/copyright:
+    - Upgrade copyright to format 1.0
+    - Update Upstream-Contact
+    - Update debian/* section
+  * Bump Standards-Version to 3.9.4
+  * debian/control: Pre-Depends on versioned dpkg (>= 1.15.6~) for xz
+    compression
+
+ -- Angel Abad <angel@debian.org>  Mon, 24 Sep 2012 14:15:53 +0200
+
+libunicode-collate-perl (0.89-1) unstable; urgency=low
+
+  * Email change: Angel Abad -> angel@debian.org
+  * Imported Upstream version 0.89
+  * Bump Debhelper compat level 9
+  * debian/copyright:
+    - Update copyright years
+    - Fix allkeys.txt path
+  * Bump Standards-Version to 3.9.3
+
+ -- Angel Abad <angel@debian.org>  Fri, 16 Mar 2012 13:02:07 +0100
+
+libunicode-collate-perl (0.87-1) unstable; urgency=low
+
+  [ Fabrizio Regalli ]
+  * Imported Upstream version 0.85
+  * Added myself to Uploaders and Copyright
+  * Updated copyright to latest .174 DEP5 revision.
+
+  [ gregor herrmann ]
+  * Add a Pre-Depends on dpkg (>= 1.15.6~) for the xz compression.
+  * New upstream release 0.87.
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 26 Nov 2011 22:33:24 +0100
+
+libunicode-collate-perl (0.84-1) unstable; urgency=low
+
+  * Imported Upstream version 0.84
+
+ -- Angel Abad <angelabad@gmail.com>  Sun, 06 Nov 2011 10:39:33 +0100
+
+libunicode-collate-perl (0.83-1) unstable; urgency=low
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.83
+
+  [ Ansgar Burchardt ]
+  * Use XZ compression for source and binary packages.
+
+ -- Angel Abad <angelabad@gmail.com>  Sun, 30 Oct 2011 16:07:16 +0100
+
+libunicode-collate-perl (0.81-1) unstable; urgency=low
+
+  * Imported Upstream version 0.81
+
+ -- Angel Abad <angelabad@gmail.com>  Sun, 23 Oct 2011 22:35:07 +0200
+
+libunicode-collate-perl (0.80-1) unstable; urgency=low
+
+  * Imported Upstream version 0.80
+  * debian/copyright:
+    - Update license stanzas
+    - Update debian/* section
+  * debian/control: Add myself to Uploaders
+
+ -- Angel Abad <angelabad@gmail.com>  Mon, 10 Oct 2011 14:57:01 +0200
+
+libunicode-collate-perl (0.79-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Remove patch, applied upstream.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 02 Oct 2011 17:31:45 +0200
+
+libunicode-collate-perl (0.78-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream version.
+  * Bump s-v to 3.9.2 (no changes).
+  * Remove unneeded dependency on quilt for 3.0 (quilt) source packages.
+  * Copyright should refer to versioned symlink.
+  * Remove article from description (per 6.2.2), remove unnecessary
+    linebreak.
+  * Remove unused requirement for --with-quilt
+  * Expanded description.
+  * Add patch to fix a minor grammar problem in the spelling.
+  * Bump upstream copyright year.
+  * Remove GNU/Linux references in copyright file.
+  * Add copyright for Unicode font, inc. seemingly free Unicode license.
+  * Rephrase to remove generic reference in control file.
+  * Expand Unicode license section to include missing header paragraphs.
+  * Make d/rules more debian-like.
+
+  [ gregor herrmann ]
+  * Update watch file.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+ -- Harlan Lieberman-Berg <H.LiebermanBerg@gmail.com>  Mon, 15 Aug 2011 16:54:03 -0400
+
+libunicode-collate-perl (0.66-1) unstable; urgency=low
+
+  [ Danai SAE-HAN ]
+  * Initial release (Closes: #602435).
+
+ -- Danai SAE-HAN (韓達耐) <danai@debian.org>  Sun, 07 Nov 2010 19:00:12 +0100
